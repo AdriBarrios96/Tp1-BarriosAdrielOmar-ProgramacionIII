@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif; 
+    margin: 20px auto; 
+    max-width: 1200px; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+header,
+nav,
+main,
+section,
+footer {
+  border: 1px solid black; /* Borde negro para ver las cajas /
+  padding: 10px; / Espacio interno para que el contenido no toque el borde /
+  margin-bottom: 15px; / Espacio entre las cajas */
+}
+
+.centrar-objecto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centrar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.colores-oscuros{
+    background-color: black;
+    color: whitesmoke;
+}
+
