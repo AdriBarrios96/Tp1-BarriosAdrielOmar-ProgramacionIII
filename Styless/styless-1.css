@@ -95,3 +95,32 @@ footer {
     color: whitesmoke;
 }
 
+table {
+    width: 80%;
+    margin: 20px auto; /* Centra la tabla en la página */
+    border-collapse: separate; /* Une los bordes de las celdas */
+    border: 1px solid #cccccc96; /* Borde alrededor de la tabla */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Bordes internos de las celdas */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #aa2d2d; /* Color de fondo para las celdas de encabezado */
+    font-weight: lighter;
+}
+
+tr:nth-child(even) {
+    background-color: #830000; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+    background-color: #0a0a0a; /* Color de fondo al pasar el ratón por encima de una fila */
+}
+
+td a:hover {
+    text-decoration: underline;
+}
