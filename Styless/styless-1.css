@@ -10,7 +10,7 @@ footer {
 }
 
   body {
-    background-color: #12086d9d;
+    background-color: #1f19669d;
       font-family: 'EB Garamond', serif;
       font-weight: 300;
       margin: 20px auto; 
@@ -56,7 +56,7 @@ footer {
 }
 
 .circular {
-    border-radius: 30%;
+    border-radius: 45%;
     width: 300px; /* Define el ancho de la imagen */
     height: 300px; /* Define la altura de la imagen (debe ser igual al ancho para un círculo perfecto) */
     object-fit: cover; /* Recorta la imagen para que se ajuste al círculo sin deformarse */
@@ -66,6 +66,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.a-la-izquierda{
+    display: flex; /* Para alinear el h1 y la imagen */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido principal */
+    flex-grow: 1;
 }
 
 .centrar-nav{
