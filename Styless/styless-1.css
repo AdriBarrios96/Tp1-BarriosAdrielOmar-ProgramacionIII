@@ -76,6 +76,14 @@ footer {
     height: 50px; */
 }
 
+.imagen-al-inicio {
+    float: left;
+    margin-left: 10px; /* Espacio entre el texto y la imagen (opcional) */
+    /* Opcional: Ajusta el ancho y la altura si es necesario */
+    /* width: 50px;
+    height: 50px; */
+}
+
 .colores-oscuros{
     background-color: rgba(77, 76, 76, 0.651);
     color: whitesmoke;
