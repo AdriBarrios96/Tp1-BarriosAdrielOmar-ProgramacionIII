@@ -10,7 +10,7 @@ footer {
 }
 
   body {
-    background-color: #4d0101d7;
+    background-color: #12086d9d;
       font-family: 'EB Garamond', serif;
       font-weight: 300;
       margin: 20px auto; 
@@ -49,7 +49,7 @@ a {
 /* Footer */
 
 footer {
-	background: #1a1a1a;
+	background: #1a1a1aa4;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center
@@ -97,11 +97,10 @@ footer {
 
 .contenedor-imagen img {
     display: row; /* Evita espacio extra debajo de la imagen */
-    width: 40%;
+    width: 30%;
     height: auto;
     transition: opacity 0.9s ease; /* Transición suave para la opacidad */
 }
-
 
 .contenedor-imagen:hover img {
     opacity: 0.5; /*Oscurece un poco la imagen original */
@@ -110,6 +109,11 @@ footer {
 .colores-oscuros{
     background-color: rgba(77, 76, 76, 0.651);
     color: whitesmoke;
+}
+
+.imagen-fondo{
+    background-image: url(/Recursos/Programacion-informatica-scaled-e1724960033513.jpg);
+    background-repeat: no-repeat;
 }
 
 table {
