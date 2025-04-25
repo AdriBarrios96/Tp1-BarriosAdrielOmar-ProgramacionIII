@@ -55,6 +55,12 @@ footer {
 	text-align: center
 }
 
+.circular {
+    border-radius: 30%;
+    width: 300px; /* Define el ancho de la imagen */
+    height: 300px; /* Define la altura de la imagen (debe ser igual al ancho para un círculo perfecto) */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al círculo sin deformarse */
+}
 
 .centrar-objecto{
     display: flex;
