@@ -90,6 +90,23 @@ footer {
     height: 50px; */
 }
 
+.contenedor-imagen {
+    position: static; /* Necesario para posicionar el overlay */
+    display: row; /* dependiendo de cómo quieras que se comporte */
+}
+
+.contenedor-imagen img {
+    display: row; /* Evita espacio extra debajo de la imagen */
+    width: 40%;
+    height: auto;
+    transition: opacity 0.9s ease; /* Transición suave para la opacidad */
+}
+
+
+.contenedor-imagen:hover img {
+    opacity: 0.5; /*Oscurece un poco la imagen original */
+}
+
 .colores-oscuros{
     background-color: rgba(77, 76, 76, 0.651);
     color: whitesmoke;
@@ -124,3 +141,4 @@ tr:hover {
 td a:hover {
     text-decoration: underline;
 }
+
